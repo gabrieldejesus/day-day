@@ -1,4 +1,4 @@
-🇺🇸 English
+_English_
 
 # Day Day
 📜 Insert tasks to be performed during the day
@@ -58,7 +58,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-🇧🇷 Português
+_Português_
 
 # Dia dia
 📜 Insira as tarefas a serem realizadas durante o dia
