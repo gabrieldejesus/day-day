@@ -1,0 +1,22 @@
+{
+  "name": "dayday",
+  "version": "1.0.0",
+  "description": "Um aplicativo para ajudar no dia dia",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [],
+  "author": "Gabriel de Jesus",
+  "license": "MIT",
+  "build": {
+    "asar": "true",
+    "productName": "Day Day"
+  },
+  "devDependencies": {
+    "electron": "^10.1.3"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  }
+}

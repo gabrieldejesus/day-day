@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
+
+/* ============================================ default ============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --black: #222222;
+  --blue: #198cff;
+  --gray: #aaaaaa;
+}
+
+body {
+  transition: all ease 0.3s;
+  background-color: #f5f6fa;
+}
+
+.container {
+  width: 1232px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+/* ============================================ header ============================================ */
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-bottom: 2px solid #eee;
+}
+
+header .container {
+  justify-content: center;
+}
+
+/* ============================================ main ============================================ */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--black);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.add input[type="text"] {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 2px solid var(--blue);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 15px 30px 15px 30px;
+}
+
+.add span {
+  width: 132px;
+  height: 60px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--blue);
+}
+
+.add span:hover {
+  background-color: #3698fa;
+}
+
+ul li {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 400;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0px 2px 0px #198cff;
+}
+
+ul li:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--blue);
+  box-shadow: 0px 15px 15px #198cff40;
+}
+
+ul li.checked {
+  color: #fff;
+  text-decoration: line-through;
+  background-color: #198cff80;
+  box-shadow: none;
+}
+
+.close {
+  padding: 10px 20px;
+}
+
+.close:hover {
+  padding: 10px 20px;
+  color: var(--blue);
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+#alert {
+  display: none;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #fa4336;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1232px) {
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  ul li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    background-color: red;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .add input[type="text"] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
