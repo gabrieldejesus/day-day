@@ -169,9 +169,6 @@ ul li.checked {
 }
 
 @media (max-width: 750px) {
-  body {
-    background-color: red;
-  }
 
   h1 {
     text-align: center;
