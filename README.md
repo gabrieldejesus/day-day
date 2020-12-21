@@ -1,13 +1,32 @@
-_English_
-
 # Day Day
+
 📜 Insert tasks to be performed during the day
 
 💡 The app has as main focus to help on the day the main function is to save the tasks to be performed on the day
 
 ![](images/web-preview.gif)
 
-## 📈 Example usage
+<p align="center">
+  <img alt="PRs welcome!" src="https://img.shields.io/static/v1?label=PRs&message=WELCOME&style=for-the-badge&color=4A90E2&labelColor=222222" />
+     
+   <img alt="Stars" src="https://img.shields.io/github/stars/gabrieldejesus/day-day?color=4A90E2&label=STARS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Forks" src="https://img.shields.io/github/forks/gabrieldejesus/day-day?color=4A90E2&label=FORKS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Issues" src="https://img.shields.io/github/issues/gabrieldejesus/day-day?color=4A90E2&label=ISSUES&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="GitHub license" src="https://img.shields.io/github/license/gabrieldejesus/day-day?color=4A90E2&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+  <a href="https://github.com/gabrieldejesus">
+    <img alt="Follow gabrieldejesus" src="https://img.shields.io/static/v1?label=Follow&message=gabrieldejesus&style=for-the-badge&color=4A90E2&labelColor=222222" />
+  </a>
+</p>
+
+## 🕹 Test here
+
+Coming soon...
+
+## 📈 Example of use
 
 You can press in the field ``Write your activity`` and type in a task if you click on the task it will have its text marked thus signaling that the task has been
 completed. If you want to delete a task, just click the **X** button.
@@ -34,84 +53,28 @@ npm install electron-reload
 
 ## 🗃 Release history
 
-* 0.1.0
-    * Project finalized and studying the possibility of adding new resources
-    * The first suitable launch
-* 0.0.1
-    * Work in progress
+- 0.1.0
+  - Project finalized and studying the possibility of adding new resources
+  - The first suitable lauch
+- 0.0.1
+  - Work in progress
 
 ## 📝 Meta
 
-Gabriel de Jesus - [My Portfolio](https://www.gabrieldesenvolvedor.com/) - oi@gabrieldesenvolvedor.com
+Gabriel de Jesus – [My portfolio](https://gabrieldesenvolvedor.com) – devgabrieldejesus@gmail.com
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-[https://github.com/devgabrieldejesus/day-day/](https://github.com/devgabrieldejesus/)
+[https://github.com/gabrieldejesus/day-day](https://github.com/gabrieldejesus)
 
-## 🚀 Contributing
+## 🚀 Contribution
 
-1. Fork it (<https://github.com/devgabrieldejesus/day-day/fork>)
-2. Create your feature branch (`git checkout -b feature / fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature / fooBar`)
-5. Create a new Pull Request
+1. Make the _fork_ of the project (<https://github.com/gabrieldejesus/day-day/fork>)
+2. Create a _branch_ for your modification (`git checkout -b my-new-resource`)
+3. Do _commit_ (`git commit -am 'Adding a new resource ...'`)
+4. _Push_ (`git push origin my-new-feature`)
+5. Create a new _Pull Request_
+
+**After your pull request is merged**, you can safely delete your branch.
 
 ---
-
-_Português_
-
-# Dia dia
-📜 Insira as tarefas a serem realizadas durante o dia
-
-💡 O app tem como foco principal ajudar no dia a principal função é salvar as tarefas a serem realizadas no dia
-
-![](images/web-preview.gif)
-
-## 📈 Exemplo de uso
-
-Você pode clicar no campo ``Escreva sua atividade`` e digitar uma tarefa se clicar na tarefa ela terá seu texto marcado sinalizando que a tarefa foi
-completado. Se você deseja excluir uma tarefa, basta clicar no botão **X**.
-
-## 💻 Configuração para Desenvolvimento
-
-### 📋 Pré-requisitos:
-
-Baixe o Node clicando [aqui](https://nodejs.org/pt-br/download/)
-
-### 🛠 Instalação
-
-Windows:
-
-_Abra o CMD (Prompt de Comando) e vá para a página do projeto e digite:_
-
-```sh
-npm install --save-dev electron
-```
-
-```sh
-npm install electron-reload
-```
-
-## 🗃 Histórico de lançamento
-
-* 0.1.0
-    * Projeto finalizado e estudando a possibilidade de agregar novos recursos
-    * O primeiro lançamento adequado
-* 0.0.1
-    * Trabalho em progresso
-
-## 📝 Meta
-
-Gabriel de Jesus - [Meu Portfólio](https://www.gabrieldesenvolvedor.com/) - oi@gabrieldesenvolvedor.com
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-[https://github.com/devgabrieldejesus/day-day](https://github.com/devgabrieldejesus/)
-
-## 🚀 Contribuição
-
-1. Fork em (<https://github.com/devgabrieldejesus/day-day/fork>)
-2. Crie seu branch de recurso (`git checkout -b feature / fooBar`)
-3. Faça commit de suas alterações (`git commit -am 'Add some fooBar'`)
-4. Empurre para o branch (`git push origin feature / fooBar`)
-5. Crie uma nova solicitação pull
